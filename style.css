@@ -1,176 +1,176 @@
 * {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 1000px;
-    margin: 0 auto;
-    border: 1px rgba(0, 0, 0, 0.074) solid;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px rgba(0, 0, 0, 0.074) solid;
 }
 
 :root {
-    --page-width: 80%;
+  --page-width: 80%;
 }
 
 .head {
-    width: var(--page-width);
-    margin: 50px auto 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: center;
+  width: var(--page-width);
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
 }
 
 #logo {
-    width: 100px;
+  width: 100px;
 }
 
 .head h1 {
-    font-size: 30px;
-    font-weight: 500;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 #details {
-    width: var(--page-width);
-    margin: 65px auto 0 auto;
+  width: var(--page-width);
+  margin: 65px auto 0 auto;
 }
 
 #details > p {
-    padding: 5px 0;
-    font-size: 14px;
-    font-weight: 600;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 #details p > span {
-    font-weight: normal; 
+  font-weight: normal;
 }
 
 #line-before-products {
-    width: var(--page-width);
-    margin: 30px auto;
-    border-top: 1px solid rgba(0, 0, 0, 0.20);
+  width: var(--page-width);
+  margin: 30px auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .product-list {
-    width: var(--page-width);
-    margin: 0 auto;
-    padding: 20px 0;
-    display: grid;
-    grid-template-columns: 10% 70% 20%;
+  width: var(--page-width);
+  margin: 0 auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
 }
 
 .product-image {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .product-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 5px;
 }
 
 .product-content > p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .product-content p:first-child {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .product-price {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: center;
-    row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: center;
+  row-gap: 5px;
 }
 
-#product-price {
-    font-size: 18px;
-    font-weight: 600;
+.product-price {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-#product-vat {
-    font-size: 12px;
-    font-weight: normal;
-    color: #727272;
+.product-vat {
+  font-size: 12px;
+  font-weight: normal;
+  color: #727272;
 }
 
 #line-after-products {
-    width: 30%;
-    margin: 20px 20% 20px 60%;
-    border-top: 1px solid rgba(0, 0, 0, 0.20);
+  width: 30%;
+  margin: 20px 20% 20px 60%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-#price-table {
-    margin: 0 auto;
-    width: var(--page-width);
-    display: grid;
-    grid-template-columns: 70% 15% 15%;
+.price-table {
+  margin: 0 auto;
+  width: var(--page-width);
+  display: grid;
+  grid-template-columns: 70% 15% 15%;
 }
 
-#price-table-names{
-    grid-column: 2 / 3;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.price-table-names {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-#price-table-amounts{
-    grid-column: 3 / 4;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.price-table-amounts {
+  grid-column: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-#price-table-amounts > p,
-#price-table-names > p  {
-    font-size: 16px;
+.price-table-amounts > p,
+.price-table-names > p {
+  font-size: 16px;
 }
 
-#price-table-amounts > p {
-    font-weight: 600;
+.price-table-amounts > p {
+  font-weight: 600;
 }
 
-#price-table-names p:last-child,
-#price-table-amounts p:last-child {
-    font-size: 18px;
-    font-weight: 600;
-    padding-top: 8px;
+.price-table-names p:last-child,
+.price-table-amounts p:last-child {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 8px;
 }
 
 footer {
-    margin-top: 50px;
-    height: 100px;
-    padding: 30px 0;
-    background-color: #FFBA43;
+  margin-top: 50px;
+  height: 100px;
+  padding: 30px 0;
+  background-color: #ffba43;
 }
 
 footer > p {
-    width: var(--page-width);
-    margin: 0 auto;
-    font-size: 24px;
-    font-weight: 500;
+  width: var(--page-width);
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 footer div {
-    width: var(--page-width);
-    margin: 0 auto;
-    padding-top: 40px;
-    display: flex;
-    justify-content: end;
-    column-gap: 20px;
+  width: var(--page-width);
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: end;
+  column-gap: 20px;
 }
 
 footer div > a {
-    font-size: 18px;
-    font-weight: normal;
-    color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
 }

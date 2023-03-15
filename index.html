@@ -19,13 +19,15 @@
       <h1>Invoice</h1>
     </div>
     <div id="details">
-      <p>E-mail: <span id="email">karolis.stpn@gmail.com</span></p>
-      <p>Date: <span id="date">2023/02/12</span></p>
-      <p>Order ID: <span id="order-id">SSS124153253</span></p>
-      <p>Restaurant name: <span id="restaurant-name">name name name</span></p>
+      <p>E-mail: <span class="email">karolis.stpn@gmail.com</span></p>
+      <p>Date: <span class="date">2023/02/12</span></p>
+      <p>Order ID: <span class="order-id">SSS124153253</span></p>
+      <p>
+        Restaurant name: <span class="restaurant-name">name name name</span>
+      </p>
       <p>
         Restaurant address:
-        <span id="restaurant-address">address address address address</span>
+        <span class="restaurant-address">address address address address</span>
       </p>
     </div>
     <div id="line-before-products"></div>
@@ -34,120 +36,36 @@
         <img src="./assets/image-placeholder.svg" alt="Product image" />
       </div>
       <div class="product-content">
-        <p id="dish-name">Dish name</p>
-        <p>Quantity: <span id="quantity">2</span></p>
-        <p id="additional-info">Additional information</p>
+        <p class="dish-name">Dish name</p>
+        <p>Quantity: <span class="quantity">2</span></p>
+        <p class="additional-info">Additional information</p>
       </div>
       <div class="product-price">
-        <p id="product-price">12.56 €</p>
-        <p id="product-vat">including VAT 21%</p>
+        <p class="product-price">12.56 €</p>
+        <p class="product-vat">including VAT 21%</p>
       </div>
     </div>
-    <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
-      <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
-      <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
-      <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
-      <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
-      <div class="product-list">
-        <div class="product-image">
-          <img src="./assets/image-placeholder.svg" alt="Product image" />
-        </div>
-        <div class="product-content">
-          <p id="dish-name">Dish name</p>
-          <p>Quantity: <span id="quantity">2</span></p>
-          <p id="additional-info">Additional information</p>
-        </div>
-        <div class="product-price">
-          <p id="product-price">12.56 €</p>
-          <p id="product-vat">including VAT 21%</p>
-        </div>
-      </div>
     <div id="line-after-products"></div>
-    <div id="price-table">
-        <div id="price-table-names">
-            <p>Subtotal:</p>
-            <p>Discount:</p>
-            <p>VAT charged:</p>
-            <p>Total:</p>
-        </div>
-        <div id="price-table-amounts">
-            <p id="subtotal-amount">37.68 €</p>
-            <p id="discount-amount">2.68 €</p>
-            <p id="vat-charged-amount">6.07 €</p>
-            <p id="total-amount">35.00 €</p>
-        </div>
+    <div class="price-table">
+      <div class="price-table-names">
+        <p>Subtotal:</p>
+        <p>Discount:</p>
+        <p>VAT charged:</p>
+        <p>Total:</p>
+      </div>
+      <div class="price-table-amounts">
+        <p class="subtotal-amount">37.68 €</p>
+        <p class="discount-amount">2.68 €</p>
+        <p class="vat-charged-amount">6.07 €</p>
+        <p class="total-amount">35.00 €</p>
+      </div>
     </div>
     <footer>
-        <p>Thank you!</p>
-        <div>
-            <a href="mailto:info@dserve.app">info@dserve.app</a>
-            <a href="https://dserve.app/">dserve.app</a>
-        </div>
+      <p>Thank you!</p>
+      <div>
+        <a href="mailto:info@dserve.app">info@dserve.app</a>
+        <a href="https://dserve.app/">dserve.app</a>
+      </div>
     </footer>
   </body>
 </html>
